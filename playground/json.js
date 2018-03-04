@@ -14,15 +14,15 @@
 
 const fs = require('fs');
 
-var originalNote = {
+let originalNote = {
   title: 'Some title',
   body: 'Some body'
 };
-var originalNoteString = JSON.stringify(originalNote);
+let originalNoteString = JSON.stringify(originalNote);
 fs.writeFileSync('notes.json', originalNoteString);
 
-var noteString = fs.readFileSync('notes.json');
-var note = JSON.parse(noteString);
+let noteString = fs.readFileSync('notes.json');
+let note = JSON.parse(noteString);
 console.log(typeof note);
 console.log(note.title);
 
