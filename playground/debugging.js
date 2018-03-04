@@ -2,7 +2,7 @@ let person = {
   name: 'Agnes'
 };
 
-person.age = 3;
+person.age = 10;
 debugger;
 person.name = 'Simon';
 

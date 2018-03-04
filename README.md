@@ -1,3 +1,3 @@
-# notes-node
+# Node.js Fundamentals (Note App)
 
-Node.js Fundamentals (Note App)
+node --inspect-brk + filename
