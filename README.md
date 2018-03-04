@@ -1,3 +1,3 @@
 # Node.js Fundamentals (Note App)
 
-node --inspect-brk + filename
+1. debugging: node --inspect-brk + filename
